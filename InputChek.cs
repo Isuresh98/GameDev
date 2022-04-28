@@ -15,5 +15,9 @@ public class InputChek : MonoBehaviour
 
 
         }
+        if (point >= 50)
+        {
+            Destroy(this.gameObject);
+        }
     }
 }
